@@ -1,1 +1,7 @@
-What image types can come here.
+.png .jpg .svg can be used. 
+
+For .png .jpg
+<img src="url_to_the_file" />
+
+For .svg
+<img src="url_to_the_file?sanitize=true" />
