@@ -1,0 +1,38 @@
+<div class="container dk-static-content">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="dk-page-title">About the Cerebrovascular Disease<br>Knowledge Portal project</h1>
+                </div></div>
+        <div class="row">
+            <div class="col-md-9">
+                <h5 class="dk-under-header">The Cerebrovascular Disease Knowledge Portal is being developed by a team of scientists and software engineers at the <a href="https://www.broadinstitute.org/" target="_blank">Broad Institute of MIT and Harvard</a> in collaboration with a team at <a href="http://www.massgeneral.org/" target="_blank">Massachusetts General Hospital</a> and many collaborators from across the globe, with funding from the NIH and National Institute of Neurological Disorders and Stroke (NINDS). The platform seeks to provide comprehensive quality-assured genetic, phenotypic and imaging data on large numbers of patients with stroke from across the world. The ultimate goal is to automate existing or newly developed best-practice statistical methods for phenotype transformation, quality control, imputation, analysis of population structure, and variant or gene association to enable testing of the most compelling hypotheses as rapidly as possible, translating genomic data into therapeutic insights.</h5>
+
+                <h3 class="dk-blue-bordered">International Stroke Genetic Consortium (ISGC)</h3>
+<p style="text-align:justify">The ISGC is an international collaboration of stroke physicians and scientists who have agreed to pool resources and expertise in an effort to unravel the genetic basis of stroke. The ISGC focuses on the genetic basis of stroke, seeking to use and supplement the substantial amount of human genetic data available from people who have suffered a stroke to identify and validate genes that increase an individual’s risk of suffering a stroke.</p>
+<p style="text-align:justify">Unraveling the genetic basis of stroke will be a first step to developing both more effective treatments and allowing earlier intervention for stroke treatment as well as identifying new targets for drug treatment. After identifying DNA regions that might be critical for the incidence or reoccurrence of stroke, researchers will intensively analyze variations in DNA sequence in targeted populations. This research will add to the foundational understanding of stroke and promises to lead to new drug targets as well as the better targeting of drugs.</p>
+<p style="text-align:justify">In addition to generating data, an important goal of the ISGC is to collaborate by pooling resources and expertise to better understand the many complex biological processes such as blood clotting, vessel weakening rupture, plaque formation in blood vessels, and breakdown of circulating emboli, which can precipitate a stroke.</p>
+                <h3 class="dk-blue-bordered">The Cerebrovascular Disease Knowledge Portal</h3>
+<p style="text-align:justify">Researchers are building a database of DNA sequence, functional and epigenomic information, and clinical data from studies on cerebrovascular disease and its complications, and creating analytic tools to analyze these data. The data and analytical tools are accessible to academic and industry researchers, and all interested users, to identify and validate changes in DNA that influence the occurrence of cerebrovascular disease, disease subtype, or disease progression.</p>
+<p style="text-align:justify">The Knowledge Portal is intended to serve three key functions:</p>
+<p style="text-align:justify"><ol><li>To be a central repository for large datasets of human genetic information linked to cerebrovascular disease and related traits.</li><li>To function as a scientific discovery engine that can be harnessed by the community at large, and assist in the selection of new targets for cerebrovascular drug design.</li><li>To facilitate the conduct of customized analyses by any interested user around the world, doing so in a secure manner that provides high quality results while protecting the integrity of the data.</li></ol></p>
+<p style="text-align:justify">The Knowledge Portal is intended to be <i>secure</i>, <i>compliant</i> with pertinent ethical regulations, <i>accessible</i> to a wide user base, <i>inviting</i> to researchers who may want to contribute data and participate in analyses, <i>organic</i> in the continuous incorporation of scientific advances, <i>modular</i> in its analytical capabilities and user interfaces, <i>automated</i>, <i>rigorous</i> in the quality of data aggregation and returned results, <i>versatile</i>, and <i>sustainable</i>.</p>
+                <h3 class="dk-blue-bordered">History</h3>
+<p style="text-align:justify">Sparked from the efforts of the T2D-GENES Consortium (Type 2 Diabetes Genetic Exploration by Next-generation sequencing in multi-Ethnic Samples; T2D-GENES) to aggregate and share results from large-scale T2D sequence and genotype datasets through their knowledge portal, the Cerebrovascular Disease Knowledge Portal was built by the International Stroke Genetics Consortium with funding from the NIH and National Institute of Neurological Disorders and Stroke (NINDS).</p>
+
+</div>
+            <div class="col-md-3" id="t2dImageHolder">
+
+                <h3 class="dk-blue-bordered">People</h3>
+
+                <h4>Consortium leaders</h4>
+
+                <ul class="list-unstyled"><li>Dan Woo, University of Cincinnati - Chair</li><li>Stephanie Debette, Bordeaux University - Vice-Chair</li></ul>
+
+                <h4>Steering committee</h4>
+
+                <ul class="list-unstyled"><li>Martin Dichgans – Chair</li><li>Stephanie Debette – Vice-Chair</li><li>Solveig Gretarsdottir</li><li>Sudha Seshadri</li><li>Myriam Fornage</li><li>Cathie Sudlow</li><li>Christina Jern</li><li>Michaiki Kubo</li><li>Hugh Markus</li><li>Joanna Howson</li><li>Olle Melander</li><li>Danish Saleheen</li><li>Chris Anderson</li><li>Guillaume Pare</li><li>Bruce Psaty</li><li>Arne Lindgren</li><li>Israel Fernandes</li><li>Brad Worrall</li><li>Stephen Kittner</li><li>Jonathan Rosand</li><li>Jemma Hopewell</li><li>Tatjana Rundek</li><li>Dan Woo</li><li>James Meschia</li><li>Ralph Sacco</li><li></li><li>Daniel Strbian</li><li>Jun Hata</li><li>Dharambir Sanghera</li><li>Jin-Moo Lee</li><li>Yoichiro Kamatani</li></ul>
+
+
+            </div>
+
+        </div></div>
