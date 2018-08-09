@@ -1,0 +1,37 @@
+<script>
+    $(function () {
+        setPdfViewer();
+
+        $("#SDKPPhenotypeGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/sleep/SDKP_phenotype_reference_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/sleep/SDKP_phenotype_reference_guide.pdf");
+        });
+        
+    });
+
+    function setPdfViewer() {
+        var pageHeader = 145;
+        $('a.media').media({width: "100%", height: $(window).height() - pageHeader});
+    }
+
+</script>
+
+
+<div id="main">
+
+    <div class="container content-wrapper">
+        <h1 class="dk-page-title">Resources</h1>
+        
+
+            <div class="tutorial" style="margin-bottom: 15px; text-align: center">
+                <div class="btn dk-t2d-green dk-tutorial-button dk-right-column-buttons-compact "><a id="SDKPPhenotypeGuidePdf">Phenotype reference guide</a></div>
+
+            </div>
+
+        
+
+        
+            <a class="media" href="https://s3.amazonaws.com/broad-portal-resources/sleep/SDKP_phenotype_reference_guide.pdf">PDF File</a>
+        
+    </div>
+</div>
