@@ -1,0 +1,105 @@
+<script>
+    $(function () {
+        setPdfViewer();
+
+        $("#portalPdf").click(function () {
+            
+                $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/Cerebrovascular_disease_KP_tutorial.pdf");
+                $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/Cerebrovascular_disease_KP_tutorial.pdf");
+            
+        });
+
+        $("#variantPdf").click(function () {
+            
+                $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/Cerebrovascular_VF_Tutorial.pdf");
+                $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/Cerebrovascular_VF_Tutorial.pdf");
+            
+        });
+
+        $("#GAITPdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/KP_GAIT_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/KP_GAIT_guide.pdf");
+
+        });
+
+        $("#VariantResultsPdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/KP_variant_results_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/KP_variant_results_guide.pdf");
+
+        });
+
+        $("#GeneticsGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/Genetic_association_primer.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/Genetic_association_primer.pdf");
+
+        });
+
+        $("#PhenotypeGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/Phenotype_reference_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/Phenotype_reference_guide.pdf");
+
+        });
+
+        $("#StrokePhenotypeGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/stroke/CDKP_phenotype_reference_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/stroke/CDKP_phenotype_reference_guide.pdf");
+
+        });
+
+        $("#GenePageGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/gene_page_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/gene_page_guide.pdf");
+
+        });
+
+        $("#CDKPGenePageGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/CDKP_gene_page_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/stroke/tutorials/CDKP_gene_page_guide.pdf");
+        });
+
+        $("#testPdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_gene_page_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_gene_page_guide.pdf");
+        });
+
+        $("#MIgenePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_gene_page_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_gene_page_guide.pdf");
+        });
+
+        $("#MIVFPdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_VF_Tutorial.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/tutorials/CVDKP_VF_Tutorial.pdf");
+        });
+
+        $("#SDKPPhenotypeGuidePdf").click(function () {
+            $(".media").attr("href", "https://s3.amazonaws.com/broad-portal-resources/sleep/SDKP_phenotype_reference_guide.pdf");
+            $(".media").find("iframe").attr("src", "https://s3.amazonaws.com/broad-portal-resources/sleep/SDKP_phenotype_reference_guide.pdf");
+        });
+        
+    });
+
+    function setPdfViewer() {
+        var pageHeader = 145;
+        $('a.media').media({width: "100%", height: $(window).height() - pageHeader});
+    }
+
+</script>
+
+
+<div id="main">
+
+    <div class="container content-wrapper">
+        <h1 class="dk-page-title">Resources</h1>
+        
+
+            <div class="tutorial" style="margin-bottom: 15px; text-align: center">
+                <div class="btn dk-t2d-green dk-tutorial-button dk-right-column-buttons-compact "><a id="GAITPdf">Genetic Analysis Interactive Tool (GAIT) guide</a></div>
+                <div class="btn dk-t2d-green dk-reference-button dk-right-column-buttons-compact "><a id="VariantResultsPdf">Variant Results Table guide</a></div>
+                <div class="btn dk-t2d-green dk-reference-button dk-right-column-buttons-compact "><a id="GeneticsGuidePdf">Introduction to genetic association analysis</a></div>
+            </div>
+        
+            Tutorials will go here.
+        
+    </div>
+</div>
